@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBLA-Game.Plugins", "FBLA-Game.Plugins.csproj", "{36602CD1-5BBE-9A6D-7C04-0DCB70A0CB11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBLA-Game.Editor.Plugins", "FBLA-Game.Editor.Plugins.csproj", "{B88EEE7C-17B0-1439-18D6-E0452CF00442}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36602CD1-5BBE-9A6D-7C04-0DCB70A0CB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36602CD1-5BBE-9A6D-7C04-0DCB70A0CB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36602CD1-5BBE-9A6D-7C04-0DCB70A0CB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36602CD1-5BBE-9A6D-7C04-0DCB70A0CB11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88EEE7C-17B0-1439-18D6-E0452CF00442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88EEE7C-17B0-1439-18D6-E0452CF00442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88EEE7C-17B0-1439-18D6-E0452CF00442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88EEE7C-17B0-1439-18D6-E0452CF00442}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
