@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AI : MonoBehaviour {
 
+    public ArrayList questionBank;
 
     public Transform player; //The player
 
@@ -18,7 +19,16 @@ public class AI : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        questionBank = new ArrayList();
+        string[] questions = new string[6];
+        questions[0] = "Do You Like FBLA?";
+        questions[1] = "Yes";
+        questions[2] = "No";
+        questions[3] = "Maybe";
+        questions[4] = "Not Sure";
+        questions[5] = "no"; //whether this question has been used.
+        questionBank.Add(questions);
+        //Reassign and add
 	}
 
     // Update is called once per frame
