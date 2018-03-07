@@ -10,6 +10,9 @@ ModelImporter:
     400000: default
     400002: //RootNode
     2100000: defaultMat
+    2100002: Material.006
+    2100004: Material.004
+    2100006: Material.005
     2300000: default
     3300000: default
     4300000: default

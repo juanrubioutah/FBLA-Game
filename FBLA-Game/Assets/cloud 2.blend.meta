@@ -1,28 +1,16 @@
 fileFormatVersion: 2
-guid: 789f3bf7bb9613e4fba6d0c56fcedb37
-timeCreated: 1517522724
+guid: ae7d5ae628cccf54fa0d56424b73b80e
+timeCreated: 1520405577
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Cylinder
-    100002: Icosphere
-    100004: //RootNode
-    400000: Cylinder
-    400002: Icosphere
-    400004: //RootNode
+    100000: //RootNode
+    400000: //RootNode
     2100000: Material_007
-    2100002: Material_006
-    2100004: Material_004
-    2100006: Material_005
-    2300000: Cylinder
-    2300002: Icosphere
-    2300004: //RootNode
-    3300000: Cylinder
-    3300002: Icosphere
-    3300004: //RootNode
-    4300000: Icosphere
-    4300002: Cylinder
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Icosphere_Icosphere_003
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}

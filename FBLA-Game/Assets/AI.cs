@@ -54,7 +54,7 @@ public class AI : MonoBehaviour {
     {
         if (distance < 0.5f)
         {
-            Rect windowRect = new Rect(200, 200, 100, 100);
+            Rect windowRect = new Rect(10, 10, 500, 200);
             windowRect = GUI.Window(0, windowRect, DoMyWindow, "Do you like FBLA?");
         }
         
@@ -62,6 +62,7 @@ public class AI : MonoBehaviour {
 
     void DoMyWindow(int windowID)
     {
-        GUI.Button(new Rect(10, 20, 100, 20), "Yes");
+        GUI.Button(new Rect(190, 40, 120, 60), "Yes");
+        
     }
 }
