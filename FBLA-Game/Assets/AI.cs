@@ -10,14 +10,13 @@ public class AI : MonoBehaviour {
 
     public float walkingDistance = 50.0f; //The max distance at which the cat will detect the player
 
-    public float smoothTime = 10.0f; //The amount of time it will take the cat to complete the maximum length journey between it and the player
+    public float smoothTime = 50.0f; //The amount of time it will take the cat to complete the maximum length journey between it and the player
 
     private Vector3 smoothVelocity = Vector3.zero;
 
 
     public float distance;//The speed of the cat
 
-	// Use this for initialization
 	void Start () {
         questionBank = new ArrayList();
         string[] questions = new string[6];
@@ -31,7 +30,6 @@ public class AI : MonoBehaviour {
         //Reassign and add
 	}
 
-    // Update is called once per frame
     void Update() {
         transform.Rotate(0, 0, 0);
 
@@ -44,6 +42,10 @@ public class AI : MonoBehaviour {
             transform.Rotate(transform.rotation.x, 90, transform.rotation.z);
             //Move the cat towards the player
             transform.position = Vector3.MoveTowards(transform.position, player.position, 0.05f);
+        }
+        else
+        {
+            transform.Rotate(0, 0, 0);
         }
 
     }
