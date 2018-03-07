@@ -8,7 +8,7 @@ public class AI : MonoBehaviour {
 
     public Transform player; //The player
 
-    public float walkingDistance = 10.0f; //The max distance at which the cat will detect the player
+    public float walkingDistance = 50.0f; //The max distance at which the cat will detect the player
 
     public float smoothTime = 10.0f; //The amount of time it will take the cat to complete the maximum length journey between it and the player
 
@@ -52,7 +52,7 @@ public class AI : MonoBehaviour {
     {
         if (distance < 0.5f)
         {
-            Rect windowRect = new Rect(20, 20, 500, 500);
+            Rect windowRect = new Rect(200, 200, 100, 100);
             windowRect = GUI.Window(0, windowRect, DoMyWindow, "Do you like FBLA?");
         }
         
